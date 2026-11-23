@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+    background-color: #272b35;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+nav a {
+    margin-left: 15px;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Đoạn giới thiệu */
+#introduction {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 50px;
+    background-color: #f0f0f0;
+}
+
+#introduction img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #222;
+}
+
+#introduction p {
+    margin: 0;
+    max-width: 600px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Dự án */
+#project {
+    padding: 30px 25px;
+    background-color: white;
+}
+
+#project h2 {
+    margin: 0 0 20px;
+}
+
+.project-list {
+    display: flex;
+    gap: 20px;
+}
+
+.list {
+    flex: 1;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #272b35;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.list:hover {
+    background-color: #3d4352;
+}
+
+/* Footer */
+footer {
+    padding: 20px 50px;
+    background-color: #f0f0f0;
+    font-size: smaller;
+    text-align: center;
+}
+
+footer a {
+    color: #222;
+    font-weight: bold;
+    text-decoration: none;
+}

@@ -1,0 +1,62 @@
+```css
+body {
+    margin: 0;
+}
+
+/* Header */
+header {
+    color: azure;
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+/* Tiêu đề */
+h1 {
+    color: azure;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Menu */
+.menu {
+    color: azure;
+    text-align: center;
+    background-color: lightskyblue;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+    margin: 5px;
+}
+
+/* Ảnh */
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Đoạn giới thiệu */
+p {
+    color: black;
+    text-align: left;
+    max-width: 500px;
+}
+
+/* Footer */
+footer {
+    background-color: lightslategray;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Nội dung chính */
+#infor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+}
